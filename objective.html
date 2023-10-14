@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Your Chrome Extension</title>
+    <style>
+      /* Add padding to the form */
+      body {
+        margin-left: 50px;
+        margin-right: 50px;
+        width: 300px;
+        margin: 20px;
+      }
+
+      form {
+        padding-bottom: 20px;
+      }
+
+      input {
+        width: 100%;
+      }
+      #popup-container {
+        border-radius: 40px; /* Adjust the value to control the amount of rounding */
+        background-color: #fff; /* Set a background color to make the rounded corners visible */
+      }
+    </style>
+  </head>
+  <body>
+    <div id="popup-container">
+      <h1>What is your objective?</h1>
+      <form id="objective-form">
+        <input type="text" id="objective-input" placeholder="I want to..." />
+        <button type="submit" id="submit-button">Submit</button>
+      </form>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>
