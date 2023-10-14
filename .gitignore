@@ -71,3 +71,7 @@ bin/
 lib/
 logs/
 target/
+
+
+# Environment 
+.env
